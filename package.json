@@ -1,0 +1,37 @@
+{
+  "name": "flow-framework-cli",
+  "version": "1.0.0",
+  "description": "A simple CLI tool for the Flow Framework.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "init": "index.js init",
+    "build": "index.js build",
+    "clean": "index.js clean",
+    "run": "index.js run"
+  },
+  "bin": {
+    "flow": "index.js"
+  },
+  "engines": {
+    "node": ">=8.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aether-technologies/flow-framework-cli.git"
+  },
+  "keywords": [
+    "Flow",
+    "Framework",
+    "FBP"
+  ],
+  "author": "schurterb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aether-technologies/flow-framework-cli/issues"
+  },
+  "homepage": "https://github.com/aether-technologies/flow-framework-cli#readme",
+  "dependencies": {
+    "commander": "^11.1.0"
+  }
+}
